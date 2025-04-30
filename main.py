@@ -1,8 +1,3 @@
-from flask import Flask
-import os
-
-app = Flask(__name__)
-
 PORT = int(os.environ.get("PORT", 5000))
 
 # Bind to 0.0.0.0
